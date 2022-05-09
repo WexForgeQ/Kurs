@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pg
+{
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    'nav  slider'
+    'nav  hfooter'
+    'nav  footer';
+    grid-template-columns:70px 1fr;
+    grid-template-rows:691px 329px 1fr;
+    max-width: 2400px;
+    width: 100%;
+    height: auto;
+}
+#nv
+{
+    position: relative;
+    grid-area:nav;
+    background-color: black;
+
+} 
+#slider
+{
+    position: relative;
+    grid-area:slider;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+#hfooter
+{
+    position: relative;
+    grid-area:hfooter;
+    background-color: rgb(255, 255, 255);
+}
+#footer
+{
+    position: relative;
+    grid-area: footer;
+    background-color:rgb(0, 0, 0);
+}
+.hn
+{
+display: block;
+position: absolute;
+width: 70px;
+height: 60px;
+left: -2px;
+top: 70px;
+font-family: 'Play';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.gn
+{
+display: block;
+position: absolute;
+width: 70px;
+height: 60px;
+left: -2px;
+top: 120px;
+font-family: 'Play';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.an
+{
+display: block;
+position: absolute;
+width: 70px;
+height: 60px;
+left: -2px;
+top: 180px;
+font-family: 'Play';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#nv p:hover
+{
+    text-decoration: underline red;
+    cursor: pointer;
+}
+.logo
+{
+position: absolute;
+display: block;
+background-color: #FFFFFF;
+width: 70px;
+height: 60px;
+left: 0;
+top:0;
+}
+.lines
+{
+    width: 1fr;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+.logohf
+{
+    width: 70%;
+    height:100%;
+    margin-left: 5%;
+   
+}
+.logohfd
+{
+    width: 30%;
+    height: 249px;
+    display: block;
+    float:left;
+}
+.hftext
+{
+    display:block;
+    width:30%;
+    height: 249px;
+    float: left;
+}
+
+.hftextl
+{
+font-family: 'Play';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+}
+.hftextd
+{
+    height: auto;
+    position: relative;
+    top: 30%;
+}
+.socials
+{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 249px;
+}
+.icon1
+{
+    left:20%;
+    height: auto;
+    position: absolute;
+    width: 11%;
+    top:30%;
+    margin-right: 3%;
+}
+.icon2
+{
+    left:40%;
+    height: auto;
+    position: absolute;
+    width: 11%;
+    top:30%;
+    margin-right: 3%;
+}
+.icon3
+{
+    left:60%;
+    height: auto;
+    position: absolute;
+    width: 11%;
+    top:30%;
+    margin-right: 3%;
+}
+.icon4
+{
+    left:80%;
+    height: auto;
+    position: absolute;
+    width: 11%;
+    top:30%;
+    margin-right: 3%;
+}
+
+.slide1
+{
+    width:100%;
+    height: 100%;
+    position:relative;
+}
+.first:hover
+{
+ cursor: pointer;
+ opacity: 0;
+}
+@font-face
+ {
+    font-family: 'Play';
+    src: url(font/Play-Regular.ttf);
+}
+#footer:hover .line
+{
+cursor:pointer;
+stroke:red;
+}
